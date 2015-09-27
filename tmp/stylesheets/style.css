@@ -1,0 +1,1514 @@
+@import url(lib/fancybox/jquery.fancybox.css);
+@import url(lib/font-awesome.css);
+@import url(lib/bootstrap.css);
+@import url(lib/material-design-iconic-font.css);
+@import url(lib/lightslider.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_extends.scss */
+section.invert-section h1, section.invert-section h2, section.invert-section h3, section.invert-section h4, section.invert-section h5, section.invert-section h6, section.invert-section p, section.invert-section small, section.invert-section li, section.invert-section blockquote {
+  color: white; }
+
+/* line 6, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 15, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+body {
+  font: 100%;
+  font-size: 16px;
+  color: #2a2a2a;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  line-height: 1.5em;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  zoom: 1;
+  font-family: 'gotham-bookgotham-book', Helvetica, Arial, sans-serif;
+  background-color: #f7f8f8;
+  position: relative; }
+
+/* line 32, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.main {
+  background-color: white; }
+
+/* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+hr {
+  border-color: #e5e5e5;
+  margin-top: 48px;
+  margin-bottom: 48px; }
+
+/* line 45, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 53, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+/* line 54, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+/* line 58, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+img {
+  height: auto; }
+
+/* line 64, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.bg-cover {
+  background-repeat: no-repeat;
+  background-attatchment: scroll;
+  background-position-x: center;
+  background-position-y: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 77, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.base-line-height {
+  line-height: 24px; }
+
+/* line 81, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.small-line-height {
+  line-height: 18px; }
+
+/* line 85, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.full-width {
+  width: 100%; }
+
+/* line 89, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.max-width {
+  max-width: 100%; }
+
+/* line 93, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.display-block {
+  display: block; }
+
+/* line 97, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.inline-block {
+  display: inline-block; }
+
+/* line 101, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.inline {
+  display: inline; }
+
+/* line 106, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.border-top {
+  border-top: 1px solid #e5e5e5; }
+
+/* line 109, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.border-right {
+  border-right: 1px solid #e5e5e5; }
+
+/* line 112, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5; }
+
+/* line 115, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.border-left {
+  border-left: 1px solid #e5e5e5; }
+
+/* line 121, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.divider-default {
+  width: 100px;
+  height: 4px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  text-align: center;
+  margin: 24px auto; }
+
+/* line 130, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.divider-sm {
+  width: 60px;
+  height: 3px;
+  background-color: #fbbb42;
+  display: inline-block;
+  text-align: center;
+  margin: 12px auto; }
+
+/* line 141, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+.icon-circle {
+  color: #aeacac;
+  padding: 10px 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 100px;
+  font-size: 1.5em; }
+  @media (max-width: 992px) {
+    /* line 141, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_base.scss */
+    .icon-circle {
+      margin-bottom: 12px; } }
+
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("../fonts/socialico-webfont.eot");
+  src: url("../fonts/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/socialico-webfont.woff") format("woff"), url("../fonts/socialico-webfont.ttf") format("truetype"), url("../fonts/socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham-boldgotham-bold';
+  src: url("../fonts/gothmbol-webfont.eot");
+  src: url("../fonts/gothmbol-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmbol-webfont.woff2") format("woff2"), url("../fonts/gothmbol-webfont.woff") format("woff"), url("../fonts/gothmbol-webfont.ttf") format("truetype"), url("../fonts/gothmbol-webfont.svg#gotham-boldgotham-bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham-bookgotham-book';
+  src: url("../fonts/gothmbok-webfont.eot");
+  src: url("../fonts/gothmbok-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmbok-webfont.woff2") format("woff2"), url("../fonts/gothmbok-webfont.woff") format("woff"), url("../fonts/gothmbok-webfont.ttf") format("truetype"), url("../fonts/gothmbok-webfont.svg#gotham-bookgotham-book") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham-lightgotham-light';
+  src: url("../fonts/gothmlig-webfont.eot");
+  src: url("../fonts/gothmlig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmlig-webfont.woff2") format("woff2"), url("../fonts/gothmlig-webfont.woff") format("woff"), url("../fonts/gothmlig-webfont.ttf") format("truetype"), url("../fonts/gothmlig-webfont.svg#gotham-lightgotham-light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham-mediumgotham-medium';
+  src: url("../fonts/gothmmed-webfont.eot");
+  src: url("../fonts/gothmmed-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmmed-webfont.woff2") format("woff2"), url("../fonts/gothmmed-webfont.woff") format("woff"), url("../fonts/gothmmed-webfont.ttf") format("truetype"), url("../fonts/gothmmed-webfont.svg#gotham-mediumgotham-medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham-thingotham-thin';
+  src: url("../fonts/gothmthi-webfont.eot");
+  src: url("../fonts/gothmthi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmthi-webfont.woff2") format("woff2"), url("../fonts/gothmthi-webfont.woff") format("woff"), url("../fonts/gothmthi-webfont.ttf") format("truetype"), url("../fonts/gothmthi-webfont.svg#gotham-thingotham-thin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 117, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-columns-2 {
+  -webkit-columns: 24px 2;
+  -moz-columns: 24px 2;
+  columns: 24px 2; }
+
+/* line 120, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-columns-3 {
+  -webkit-columns: 24px 3;
+  -moz-columns: 24px 3;
+  columns: 24px 3; }
+
+/* line 123, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-columns-4 {
+  -webkit-columns: 24px 4;
+  -moz-columns: 24px 4;
+  columns: 24px 4; }
+
+/* line 127, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-uppercase {
+  text-transform: uppercase; }
+
+/* line 136, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.thin-font-name {
+  font-family: "gotham-thingotham-thin", Helvetica, Arial, sans-serif; }
+
+/* line 140, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.light-font-name {
+  font-family: "gotham-lightgotham-light", Helvetica, Arial, sans-serif; }
+
+/* line 143, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.regular-font-name {
+  font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif; }
+
+/* line 146, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.medium-font-name {
+  font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif; }
+
+/* line 149, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.bold-font-name {
+  font-family: "gotham-boldgotham-bold", Helvetica, Arial, sans-serif !important; }
+
+/* line 153, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.social-font-name {
+  font-family: "socialicoregular" !important; }
+
+/* line 160, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.primary-text-color {
+  color: #85c342 !important; }
+  /* line 162, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+  .primary-text-color p {
+    color: #85c342 !important; }
+
+/* line 167, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.secondary-text-color {
+  color: #59c1ae !important; }
+  /* line 169, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+  .secondary-text-color p {
+    color: #59c1ae !important; }
+
+/* line 174, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.body-text-color {
+  color: #707070 !important; }
+
+/* line 178, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-color {
+  color: #2a2a2a !important; }
+
+/* line 182, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.extra-light-text-color {
+  color: #aeacac !important; }
+
+/* line 186, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.dark-text-color {
+  color: #2a2a2a; }
+
+/* line 190, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-success {
+  color: #9aca40; }
+
+/* line 194, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.text-warning {
+  color: #f0ad4e; }
+
+/* line 198, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.link-color {
+  color: #4a90e2; }
+
+/* line 203, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6, .white-text p, .white-text small, .white-text li {
+  color: white !important; }
+
+/* line 210, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.micro-text {
+  font-size: .7em; }
+
+/* line 219, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit; }
+
+/* line 222, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  margin-bottom: 24px; }
+
+/* line 229, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+p small {
+  display: inline-block;
+  line-height: 1.6em; }
+/* line 233, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+p.lead {
+  font-size: 1.2em;
+  line-height: 1.6em; }
+
+/* line 240, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+p {
+  font-size: 1em; }
+
+/* line 241, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h1 {
+  font-size: 3.9em; }
+
+/* line 242, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h2 {
+  font-size: 2em; }
+
+/* line 243, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h3 {
+  font-size: 2em; }
+
+/* line 244, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h4 {
+  font-size: 1.4em; }
+
+/* line 245, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h5 {
+  font-size: .9em; }
+
+/* line 246, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h6 {
+  font-size: .8em; }
+
+/* line 250, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h1 {
+  font-family: "gotham-thingotham-thin", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+  color: #2a2a2a; }
+
+/* line 256, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h2 {
+  font-family: "gotham-thingotham-thin", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+  color: #2a2a2a; }
+
+/* line 262, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h3 {
+  font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif;
+  line-height: 1.3em; }
+
+/* line 267, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h4 {
+  font-family: "gotham-lightgotham-light", Helvetica, Arial, sans-serif;
+  line-height: 1.4em; }
+
+/* line 272, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h5 {
+  font-family: "gotham-boldgotham-bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.7pt;
+  line-height: 1.6em; }
+
+/* line 279, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+h6 {
+  font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif;
+  line-height: 1.3em; }
+
+/* line 286, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+p {
+  color: #707070;
+  line-height: 1.7em; }
+
+/* line 291, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.heading-bordered {
+  padding-bottom: 18px;
+  margin-bottom: 28.8px;
+  position: relative; }
+  /* line 295, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+  .heading-bordered:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 32px;
+    height: 2px;
+    margin: auto;
+    background: #eaebed; }
+  /* line 307, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+  .heading-bordered.heading-bordered-left:before {
+    right: auto; }
+
+/* line 317, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+.line-through {
+  text-decoration: line-through; }
+
+/* line 321, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+blockquote {
+  font-family: "gotham-thingotham-thin", Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  border: none;
+  padding-left: 0;
+  color: #2a2a2a; }
+  /* line 328, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_typography.scss */
+  blockquote footer {
+    margin-top: 24px;
+    font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_lists.scss */
+ul {
+  margin-left: 24px;
+  margin-bottom: 36px;
+  color: #595959; }
+  /* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_lists.scss */
+  ul.list-centered {
+    display: inline-block; }
+
+/* line 8, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+a:focus, a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: 0;
+  outline: 0; }
+
+/* line 14, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+a {
+  color: #85c342;
+  text-decoration: none;
+  outline: none; }
+  /* line 18, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+  a:active, a:focus {
+    color: #85c342;
+    text-decoration: none; }
+  /* line 22, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+  a:hover {
+    color: #c2e1a0;
+    text-decoration: none; }
+
+/* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+.btn {
+  font-size: .7em;
+  text-transform: uppercase;
+  font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+  /* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-primary {
+    color: #85c342;
+    background: white;
+    border: none;
+    padding: 16px 36px; }
+    /* line 41, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+    .btn.btn-primary:hover {
+      background: #fafafa; }
+  /* line 45, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-default {
+    color: #85c342;
+    background: white;
+    border: none;
+    padding: 16px 36px;
+    box-shadow: none;
+    border: 1px solid #85c342; }
+    /* line 52, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+    .btn.btn-default:hover {
+      background: #fafafa; }
+  /* line 56, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_links_buttons.scss */
+  .btn:active {
+    box-shadow: none; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-auto {
+  margin: 0 auto; }
+
+/* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin {
+  margin: 24px !important; }
+
+/* line 8, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-top {
+  margin-top: 24px !important; }
+
+/* line 11, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-right {
+  margin-right: 24px !important; }
+
+/* line 14, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-bottom {
+  margin-bottom: 24px !important; }
+
+/* line 17, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-left {
+  margin-left: 24px !important; }
+
+/* line 20, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-top {
+  margin-top: 48px !important; }
+
+/* line 23, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-right {
+  margin-right: 48px !important; }
+
+/* line 26, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-bottom {
+  margin-bottom: 48px !important; }
+
+/* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-left {
+  margin-left: 48px !important; }
+
+/* line 32, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-top {
+  margin-top: 72px !important; }
+
+/* line 35, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-right {
+  margin-right: 72px !important; }
+
+/* line 38, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-bottom {
+  margin-bottom: 72px !important; }
+
+/* line 41, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-left {
+  margin-left: 72px !important; }
+
+/* line 44, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-top {
+  margin-top: 12px !important; }
+
+/* line 47, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-right {
+  margin-right: 12px !important; }
+
+/* line 50, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-bottom {
+  margin-bottom: 12px !important; }
+
+/* line 53, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-left {
+  margin-left: 12px !important; }
+
+/* line 56, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-top {
+  margin-top: 6px !important; }
+
+/* line 59, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-right {
+  margin-right: 6px !important; }
+
+/* line 62, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-bottom {
+  margin-bottom: 6px !important; }
+
+/* line 65, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-left {
+  margin-left: 6px !important; }
+
+/* line 68, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin {
+  margin: 0px !important; }
+
+/* line 71, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-top {
+  margin-top: 0px !important; }
+
+/* line 74, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-right {
+  margin-right: 0px !important; }
+
+/* line 77, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-bottom {
+  margin-bottom: 0px !important; }
+
+/* line 80, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-left {
+  margin-left: 0px !important; }
+
+/* line 83, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.large-margin-top {
+  margin-top: 72px !important; }
+
+/* line 88, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padded {
+  padding: 24px !important; }
+
+/* line 91, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-top {
+  padding-top: 24px !important; }
+
+/* line 94, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-right {
+  padding-right: 24px !important; }
+
+/* line 97, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-bottom {
+  padding-bottom: 24px !important; }
+
+/* line 100, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-left {
+  padding-left: 24px !important; }
+
+/* line 103, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padded {
+  padding: 48px !important; }
+
+/* line 106, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-top {
+  padding-top: 48px !important; }
+
+/* line 109, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-right {
+  padding-right: 48px !important; }
+
+/* line 112, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-bottom {
+  padding-bottom: 48px !important; }
+
+/* line 115, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-left {
+  padding-left: 48px !important; }
+
+/* line 118, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-top {
+  padding-top: 72px !important; }
+
+/* line 121, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-right {
+  padding-right: 72px !important; }
+
+/* line 124, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-bottom {
+  padding-bottom: 72px !important; }
+
+/* line 127, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-left {
+  padding-left: 72px !important; }
+
+/* line 130, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding {
+  padding: 0px !important; }
+
+/* line 133, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-top {
+  padding-top: 0px !important; }
+
+/* line 136, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-right {
+  padding-right: 0px !important; }
+
+/* line 139, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-bottom {
+  padding-bottom: 0px !important; }
+
+/* line 142, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-left {
+  padding-left: 0px !important; }
+
+/* line 145, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding {
+  padding: 12px !important; }
+
+/* line 148, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-top {
+  padding-top: 12px !important; }
+
+/* line 151, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-right {
+  padding-right: 12px !important; }
+
+/* line 154, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-bottom {
+  padding-bottom: 12px !important; }
+
+/* line 157, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-left {
+  padding-left: 12px !important; }
+
+/* line 160, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding {
+  padding: 6px !important; }
+
+/* line 163, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-top {
+  padding-top: 6px !important; }
+
+/* line 166, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-right {
+  padding-right: 6px !important; }
+
+/* line 169, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-bottom {
+  padding-bottom: 6px !important; }
+
+/* line 172, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-left {
+  padding-left: 6px !important; }
+
+/* line 4, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+section {
+  padding: 72px 0;
+  background: white; }
+  /* line 7, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+  section.hero {
+    padding: 36px 0; }
+  /* line 10, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+  section.invert-section {
+    background-color: #85c342; }
+    /* line 13, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section ::-webkit-input-placeholder {
+      color: white; }
+    /* line 17, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section :-moz-placeholder {
+      /* Firefox 18- */
+      color: white; }
+    /* line 21, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: white; }
+    /* line 25, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section :-ms-input-placeholder {
+      color: white; }
+    /* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section form input, section.invert-section form textarea, section.invert-section form select {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.5);
+      color: white; }
+    /* line 34, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+    section.invert-section form select {
+      color: white; }
+  /* line 39, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+  section.off-white {
+    background-color: #f7f8f8; }
+  /* line 42, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_sections.scss */
+  section.sign-up {
+    background: #85c342 url(../images/sign_up_bg.png) center center scroll no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+.nav-secondary {
+  width: auto; }
+  @media (max-width: 992px) {
+    /* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .nav-secondary {
+      background-color: #fafafa; }
+      /* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .nav-secondary .container {
+        width: auto;
+        padding: 0 12px;
+        border-bottom: 1px solid #e5e5e5; }
+      /* line 10, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .nav-secondary ul {
+        width: auto;
+        overflow-x: scroll;
+        white-space: nowrap; } }
+  /* line 16, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .nav-secondary ul {
+    padding: 24px 0;
+    list-style: none;
+    margin: 0; }
+    /* line 20, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .nav-secondary ul li {
+      white-space: nowrap;
+      display: inline-block;
+      font-size: .6em;
+      text-transform: uppercase;
+      margin-right: 12px;
+      letter-spacing: 1px;
+      font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif; }
+      /* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .nav-secondary ul li.active a {
+        border-bottom: #85c342 1px solid; }
+      /* line 33, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .nav-secondary ul li a {
+        color: #aeacac;
+        padding: 12px 0; }
+        /* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+        .nav-secondary ul li a:hover {
+          color: #85c342; }
+
+/* line 45, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+ul.nav-pills {
+  margin: 0;
+  position: relative; }
+  @media (max-width: 767px) {
+    /* line 51, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    ul.nav-pills li {
+      float: left;
+      font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif; }
+      /* line 54, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li a {
+        padding: 3px 10px 3px 10px !important;
+        border-right: #e5e5e5 1px solid;
+        border-radius: 0; }
+      /* line 60, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li:last-of-type a {
+        border: none; }
+      /* line 65, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li.active a {
+        border: none !important;
+        border-right: #e5e5e5 1px solid !important; } }
+  /* line 72, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  ul.nav-pills li {
+    font-size: .7em;
+    line-height: 1.2em; }
+    /* line 76, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    ul.nav-pills li.active a {
+      background-color: white;
+      color: #85c342;
+      border: 1px solid #e5e5e5;
+      border-right: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+      /* line 83, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li.active a:hover, ul.nav-pills li.active a:active, ul.nav-pills li.active a:focus {
+        background-color: white !important;
+        color: #85c342; }
+    /* line 89, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    ul.nav-pills li a {
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      padding: 8px 24px;
+      color: #aeacac; }
+      /* line 90, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li a:hover, ul.nav-pills li a:active, ul.nav-pills li a:focus {
+        background-color: white !important;
+        color: #85c342; }
+      /* line 97, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-pills li a:hover {
+        background-color: white;
+        color: #85c342; }
+
+/* line 107, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+.accordian-default {
+  margin-bottom: 0;
+  margin-bottom: 10px; }
+  /* line 110, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .accordian-default .panel {
+    box-shadow: none;
+    margin: 0;
+    border-bottom: none;
+    border-color: #e5e5e5;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s; }
+    /* line 116, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .accordian-default .panel.shadow {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+      /* line 118, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .accordian-default .panel.shadow h5 {
+        color: #aeacac; }
+      /* line 121, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .accordian-default .panel.shadow .in {
+        box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.08); }
+    /* line 125, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .accordian-default .panel .panel-heading {
+      background: white;
+      border: none;
+      padding: 0;
+      border-radius: 0; }
+      /* line 130, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .accordian-default .panel .panel-heading a {
+        padding: 24px 0;
+        display: block;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -ms-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+    /* line 136, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .accordian-default .panel .in {
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      float: left;
+      width: 100%; }
+    /* line 143, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .accordian-default .panel .panel-body.therman {
+      background-image: url(../images/therman.png);
+      background-repeat: no-repeat;
+      background-attatchment: scroll;
+      background-position-x: right;
+      background-position-y: top; }
+      @media (max-width: 992px) {
+        /* line 143, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+        .accordian-default .panel .panel-body.therman {
+          background-image: url(../images/therman_light.png); } }
+      @media (max-width: 767px) {
+        /* line 143, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+        .accordian-default .panel .panel-body.therman {
+          background-image: none; } }
+  /* line 159, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .accordian-default a.employee-more img {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s; }
+  /* line 163, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .accordian-default a.employee-more:hover:before {
+    content: "LEARN ABOUT ME";
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 133px;
+    top: 252px;
+    position: relative;
+    text-align: center;
+    margin-top: -244px;
+    padding-top: 108px;
+    color: white;
+    font-size: 1em;
+    left: 13px; }
+  /* line 179, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .accordian-default a.employee-more:hover img {
+    padding: 5px;
+    border: 2px solid #85c342; }
+  /* line 192, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .accordian-default .tab-pane {
+    box-shadow: none !important;
+    background: transparent !important; }
+
+/* line 198, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+.panel-group .panel + .panel {
+  margin-top: 0 !important; }
+
+/* line 204, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+ul.nav-tabs {
+  margin: 0; }
+  /* line 206, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  ul.nav-tabs li {
+    text-transform: uppercase;
+    font-size: .7em; }
+    /* line 209, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    ul.nav-tabs li a {
+      color: #aeacac;
+      border: none !important;
+      letter-spacing: 1px;
+      font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif; }
+      /* line 214, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      ul.nav-tabs li a:hover {
+        background: none;
+        border: none; }
+
+/* line 222, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: none !important;
+  color: #aeacac;
+  box-shadow: inset 0 -1px 0 #85c342;
+  background: transparent !important; }
+
+/* line 229, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+.tab-content {
+  margin-top: 24px; }
+  /* line 231, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .tab-content .tab-pane {
+    border: none !important; }
+  /* line 234, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .tab-content p {
+    font-size: .8em; }
+  /* line 237, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  .tab-content ul {
+    margin-left: 0; }
+    /* line 239, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    .tab-content ul li {
+      font-size: .8em;
+      margin-bottom: 12px; }
+      /* line 242, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+      .tab-content ul li a {
+        display: block; }
+
+/* line 251, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+ul.filter-nav li {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "gotham-boldgotham-bold", Helvetica, Arial, sans-serif;
+  font-size: .7em; }
+  /* line 257, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  ul.filter-nav li.active-link a {
+    box-shadow: inset 0 0 0 1px #85c342; }
+  /* line 261, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+  ul.filter-nav li a {
+    border-radius: 3px;
+    display: block;
+    padding: 6px 12px;
+    color: #aeacac;
+    margin-bottom: 5px; }
+    /* line 267, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+    ul.filter-nav li a:hover {
+      color: #85c342;
+      background-color: #fafafa; }
+
+/* line 276, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_navs.scss */
+ul.pager a {
+  border-radius: 3px; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_panels_wells.scss */
+.card {
+  padding: 36px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+  /* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_panels_wells.scss */
+  .card h1, .card h2, .card h3, .card h4, .card h5, .card h6, .card p {
+    color: #2a2a2a !important; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_forms.scss */
+form .form-control {
+  box-shadow: none;
+  border-radius: 3px;
+  border-color: #CFCFCF; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_alerts.scss */
+.alert.alert-info {
+  background: white;
+  border: 1px solid #85c342; }
+  /* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_alerts.scss */
+  .alert.alert-info p {
+    font-size: .9em;
+    color: #2a2a2a; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_icons.css.scss */
+i.icon-md {
+  font-size: 5em;
+  line-height: 1em; }
+/* line 6, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_icons.css.scss */
+i.icon-sm {
+  font-size: 3em;
+  line-height: 1.2em; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+.main-nav {
+  transition-duration: .4s;
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  padding: 12px 0; }
+  /* line 10, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0; }
+  /* line 15, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav a.navbar-brand {
+    position: relative;
+    top: 12px; }
+    @media (max-width: 767px) {
+      /* line 19, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+      .main-nav a.navbar-brand img {
+        width: 150px;
+        position: relative;
+        top: 5px; } }
+  /* line 27, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav span.menu-text {
+    font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 5px;
+    letter-spacing: 1.5px;
+    color: #2a2a2a; }
+  /* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav .md-menu {
+    font-size: 18px; }
+  /* line 39, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav ul.main-links {
+    padding: 6px 0; }
+    /* line 41, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+    .main-nav ul.main-links li {
+      font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: .7em;
+      letter-spacing: 1.5px;
+      float: left; }
+      /* line 48, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links li a {
+        transition-duration: .2s;
+        color: #85c342; }
+        /* line 51, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+        .main-nav ul.main-links li a:hover {
+          color: #dddddd;
+          background: transparent; }
+        /* line 55, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+        .main-nav ul.main-links li a:focus {
+          background: transparent; }
+  /* line 61, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+  .main-nav .btn {
+    padding: 9.6px 24px;
+    font-size: .7em; }
+    @media (max-width: 992px) {
+      /* line 61, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_header.scss */
+      .main-nav .btn {
+        width: 100%; } }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+footer.global-footer {
+  display: inline-block;
+  width: 100%; }
+  /* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+  footer.global-footer a {
+    color: #9ea1a4; }
+  /* line 8, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+  footer.global-footer section {
+    background-color: #f7f8f8; }
+  /* line 11, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+  footer.global-footer p {
+    font-size: .8em;
+    color: #9ea1a4; }
+  /* line 15, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+  footer.global-footer h5 {
+    font-size: .7em;
+    margin-bottom: 6px; }
+  /* line 19, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+  footer.global-footer ul.footer-links {
+    margin: 0; }
+    /* line 21, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+    footer.global-footer ul.footer-links li {
+      font-size: .8em;
+      margin-bottom: 4px; }
+      /* line 24, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+      footer.global-footer ul.footer-links li a {
+        color: #9ea1a4; }
+        /* line 26, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+        footer.global-footer ul.footer-links li a:hover {
+          color: #85c342; }
+    /* line 31, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+    footer.global-footer ul.footer-links ul.menu-social {
+      margin-top: 12px; }
+      /* line 33, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+      footer.global-footer ul.footer-links ul.menu-social li {
+        font-size: 1.3em; }
+        /* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+        footer.global-footer ul.footer-links ul.menu-social li:nth-child(1) a {
+          color: #48659D; }
+        /* line 41, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+        footer.global-footer ul.footer-links ul.menu-social li:nth-child(2) a {
+          color: #D44D3B; }
+        /* line 46, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+        footer.global-footer ul.footer-links ul.menu-social li:nth-child(3) a {
+          color: #597AAD; }
+        /* line 51, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_footer.scss */
+        footer.global-footer ul.footer-links ul.menu-social li:nth-child(4) a {
+          color: #65BBF2; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+body {
+  overflow-x: hidden; }
+
+/* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+.smr-open {
+  overflow-y: hidden; }
+
+/* line 10, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+button.nav-toggler {
+  color: #2a2a2a;
+  font-size: 1.9em;
+  position: relative;
+  top: 9px;
+  background: none;
+  border: none;
+  box-shadow: none; }
+  /* line 18, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  button.nav-toggler:focus {
+    outline: none; }
+
+/* line 24, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+#wrapper {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+/* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  background: rgba(170, 170, 170, 0.8); }
+
+/* general style for all menus */
+/* line 51, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+nav.sliding-menu {
+  background: white;
+  position: fixed;
+  z-index: 20;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 20px 40px;
+  padding-left: 0; }
+  /* line 52, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu ul {
+    margin: 0;
+    padding: 0; }
+  /* line 67, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu .btn {
+    margin: 0px 40px; }
+  /* line 70, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu .nav-toggler {
+    float: right; }
+    /* line 72, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+    nav.sliding-menu .nav-toggler.close-menu {
+      background: white;
+      padding: 13px;
+      border-radius: 100px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: -40px;
+      z-index: 100;
+      display: block; }
+  /* line 96, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu ul.menu-social li a {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    color: #9ea1a4; }
+    /* line 99, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+    nav.sliding-menu ul.menu-social li a:hover {
+      color: #85c342; }
+  /* line 105, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu .navbar-form {
+    border: none;
+    box-shadow: none;
+    margin: 0 !important;
+    padding: 0 !important; }
+    /* line 110, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+    nav.sliding-menu .navbar-form .form-group {
+      margin: 0 !important;
+      padding: 0 !important;
+      margin-left: 10px !important; }
+      /* line 114, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+      nav.sliding-menu .navbar-form .form-group:nth-child(1) {
+        margin-bottom: 24px !important;
+        margin-top: -21px !important; }
+      /* line 118, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+      nav.sliding-menu .navbar-form .form-group:nth-child(2) {
+        float: left; }
+  /* line 123, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu p {
+    font-size: .8em;
+    letter-spacing: 1px;
+    color: #9ea1a4; }
+  /* line 128, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu .nav-padding-left {
+    padding-left: 40px; }
+  /* line 131, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+  nav.sliding-menu ul.main-links {
+    margin-top: 24px; }
+    /* line 133, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+    nav.sliding-menu ul.main-links li {
+      font-family: "gotham-bookgotham-book", Helvetica, Arial, sans-serif;
+      font-size: .8em;
+      padding-left: 0px;
+      letter-spacing: 1px; }
+      /* line 139, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+      nav.sliding-menu ul.main-links li.active a {
+        color: #85c342;
+        border-left: 3px solid #85c342; }
+      /* line 144, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+      nav.sliding-menu ul.main-links li.section-header {
+        font-family: "gotham-mediumgotham-medium", Helvetica, Arial, sans-serif;
+        color: #aeacac;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-left: 40px; }
+      /* line 151, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+      nav.sliding-menu ul.main-links li a {
+        padding-left: 40px;
+        padding-bottom: 0;
+        transition-duration: 0.3s;
+        color: #2a2a2a; }
+        /* line 156, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+        nav.sliding-menu ul.main-links li a:hover {
+          background: none;
+          color: #85c342; }
+        /* line 160, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+        nav.sliding-menu ul.main-links li a:focus {
+          background: transparent; }
+
+/* slide menu left and right, push menu left and right */
+/* line 170, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+nav.slide-menu-right {
+  top: 0;
+  width: 300px;
+  height: 100%;
+  overflow-y: scroll; }
+
+/* line 178, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+nav.slide-menu-right {
+  right: -300px; }
+
+/* line 182, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_sliding_menu.scss */
+body.smr-open nav.slide-menu-right {
+  right: 0; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+.social-btn-group {
+  position: relative;
+  right: 10px; }
+  @media (max-width: 992px) {
+    /* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .social-btn-group {
+      right: 0; } }
+  /* line 8, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+  .social-btn-group .btn {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-family: "socialicoregular";
+    font-size: 1.5em;
+    padding: 12px 16px; }
+    /* line 14, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .social-btn-group .btn:first-of-type {
+      border-top-right-radius: 3px !important;
+      border-top-left-radius: 3px !important; }
+    /* line 18, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .social-btn-group .btn:last-of-type {
+      border-bottom-right-radius: 3px !important;
+      border-bottom-left-radius: 3px !important; }
+    /* line 22, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .social-btn-group .btn:hover {
+      background: #85c342;
+      color: white; }
+
+/* line 30, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+.fix-social.affix {
+  position: fixed !important;
+  top: 120px; }
+/* line 34, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+.fix-social .share-text {
+  text-align: left; }
+@media (max-width: 992px) {
+  /* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+  .fix-social {
+    position: relative; }
+    /* line 39, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .fix-social .share-text {
+      text-align: left; }
+    /* line 42, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_blog.scss */
+    .fix-social.affix {
+      position: relative !important;
+      top: 0px; } }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+.google-map {
+  width: 100%;
+  overflow: hidden;
+  height: 594px;
+  margin-top: -594px; }
+  /* line 6, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+  .google-map iframe {
+    margin-top: -150px;
+    pointer-events: none; }
+
+/* line 12, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+section.contact-form {
+  background: #85c342 url(../images/contact_form_bg.png) center center scroll no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 17, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+section.contact-map-container {
+  height: 594px;
+  background: #85c342; }
+
+/* line 24, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+.map-show .card, .map-show h1 {
+  display: none; }
+/* line 28, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_contact.scss */
+.map-show .google-map iframe {
+  margin-top: 0 !important;
+  pointer-events: auto; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 6, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+.masonry-grid {
+  /* fluid 3 columns */
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  /* line 11, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+  .masonry-grid .grid-sizer,
+  .masonry-grid .grid-item {
+    width: 31.3333%; }
+    @media (max-width: 992px) {
+      /* line 11, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+      .masonry-grid .grid-sizer,
+      .masonry-grid .grid-item {
+        width: 48%; } }
+  /* line 17, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+  .masonry-grid .grid-item {
+    margin-bottom: 1%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 21, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+  .masonry-grid .gutter-sizer {
+    width: 1%; }
+
+/* line 26, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_masonry.scss */
+.masonry-grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_testimonials.scss */
+.testimonial-grid .testimonial {
+  background: white;
+  border: 1px solid #eee;
+  padding: 24px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+  /* line 8, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_testimonials.scss */
+  .testimonial-grid .testimonial:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); }
+@media (max-width: 767px) {
+  /* line 13, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/elements/_testimonials.scss */
+  .testimonial-grid .grid-sizer,
+  .testimonial-grid .grid-item {
+    width: 100%; } }
+
+@media (max-width: 992px) {
+  /* line 5, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .text-center-md {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  /* line 13, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .text-center-sm {
+    text-align: center; } }
+
+@media (max-width: 992px) {
+  /* line 21, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .no-padding-md {
+    padding: 0 !important; } }
+
+@media (max-width: 992px) {
+  /* line 29, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .btn-block-md {
+    display: block;
+    width: 100%; } }
+
+@media (max-width: 992px) {
+  /* line 36, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .no-padding-right-md {
+    padding-right: 0 !important; } }
+
+@media (max-width: 767px) {
+  /* line 44, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .no-padding-left-sm {
+    padding-left: 0 !important; } }
+
+@media (max-width: 767px) {
+  /* line 54, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .text-center-sm {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  /* line 60, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+  .no-margin-bottom-sm {
+    margin-bottom: 0; } }
+
+/* line 66, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+.margin-bottom-sm {
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    /* line 66, /Users/alauderdale/Dropbox/clients/dental_elements/SITES/Dental-Elemens/source/stylesheets/partials/_responsive_helpers.scss */
+    .margin-bottom-sm {
+      margin-bottom: 24px; } }
