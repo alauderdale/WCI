@@ -2,13 +2,13 @@
 
 
 section{
-  padding:$baseline*3 0;
+  padding:$baseline*2 0;
   background:white;
   &.hero{
   	  padding:$baseline*1.5 0;
   }
   &.invert-section{
-    background-color:$primary-color;
+    background-color:$black-color;
     @extend %white_text;
     ::-webkit-input-placeholder {
        color: white;

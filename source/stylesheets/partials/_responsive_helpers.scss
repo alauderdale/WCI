@@ -10,14 +10,6 @@
 
 }
 
-.text-center-sm{
-
-  @include breakpoint(sm) {
-    text-align:center;
-  }
-
-}
-
 .no-padding-md{
 
   @include breakpoint(md) {
@@ -41,11 +33,7 @@
 
 }
 
-.no-padding-left-sm{
-  @include breakpoint(sm) {
-    padding-left:0!important;
-  }  
-}
+
 
 
 //sm
@@ -68,4 +56,33 @@
   @include breakpoint(sm) {
       margin-bottom:24px;
     }
+}
+
+.no-padding-right-sm{
+
+  @include breakpoint(md) {
+    padding-right:0!important;
+  }
+
+}
+
+.no-padding-left-sm{
+  @include breakpoint(sm) {
+    padding-left:0!important;
+  }  
+}
+
+.text-center-sm{
+
+  @include breakpoint(sm) {
+    text-align:center;
+  }
+
+}
+
+
+.no-float-right-sm{
+  @include breakpoint(sm) {
+    float: none!important;
+  }
 }

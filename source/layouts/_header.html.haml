@@ -2,7 +2,7 @@
   .container
     %a.navbar-brand{:href => "/"} 
       %img{:src=>"/images/logo@2x.png", :width=>"210px"}
-    .pull-right
+    .pull-right.visible-xs
       %button.nav-toggler.toggle-slide-right
         %span.menu-text
           menu
@@ -10,5 +10,14 @@
     .nav-links.hidden-xs.pull-right
       %ul.nav.main-links
         %li
+          %a{:href => "/approach"} 
+            Approach
+        %li
+          %a{:href => "/team"} 
+            Team
+        %li
           %a{:href => "/contact"} 
-            MAKE AN APPOINTMENT
+            Contact
+        %li
+          %a{:href => "/portfolio"} 
+            Portfolio
