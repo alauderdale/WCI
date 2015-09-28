@@ -70,23 +70,6 @@ $(document).ready(function(){
 
 
 
-	 //accordian
-
-	$( '#employee-accordion .panel a.open' ).click(function() {
-  	$(this).closest('.panel').siblings().removeClass('shadow');
-  	$(this).closest('.panel').toggleClass('shadow');
-	});
-
-	//map ui
-
-		$( 'a.map-toggle' ).click(function() {
-
-		$('.map-wrap').toggleClass('map-show');
-
-
-
-
-	});
 
 
 });

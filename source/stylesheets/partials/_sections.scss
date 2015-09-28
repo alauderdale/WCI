@@ -9,6 +9,9 @@ section{
   }
   &.invert-section{
     background-color:$black-color;
+    i{
+      color:white;
+    }
     @extend %white_text;
     ::-webkit-input-placeholder {
        color: white;
