@@ -6,7 +6,7 @@
 	background-color:$primary-color;
 	position:relative;
 	top:25px;
-	left:5px;
+	left:25px;
   @include breakpoint(sm) {
     display: none;
   }
